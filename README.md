@@ -6,7 +6,7 @@ Welcome to the **Diabetes Research Q&A Chatbot**—an AI-powered tool that trans
 
 ---
 
-## What It Does:
+## What It Does:    
 
 This chatbot is designed to make diabetes research accessible to everyone—researchers, clinicians, or curious minds. It draws from a robust dataset of **9,999 PubMed abstracts (2010 onward)** and lets users upload PDFs (up to 10 pages) for extra context. Powered by **BioBERT** for medical-grade embeddings, **Pinecone** for rapid vector retrieval, and **Google’s Gemini 1.5 Flash** for smart answer generation, it delivers responses in **8-9 seconds**. Built at zero cost, it’s a scalable, efficient solution that showcases advanced AI engineering.
 
