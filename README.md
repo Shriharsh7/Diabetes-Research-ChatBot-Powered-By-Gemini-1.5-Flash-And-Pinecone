@@ -1,4 +1,4 @@
-# Diabetes Research ChatBot Powered By Gemini 1.5 Flash And Pinecone   
+# Diabetes Research ChatBot Powered By Gemini 1.5 Flash And Pinecone     
 
 Welcome to the **Diabetes Research Q&A Chatbot**—an AI-powered tool that transforms how we access and understand diabetes research. This project blends cutting-edge natural language processing (NLP), vector search, and generative AI to deliver fast, precise, and context-aware answers to medical queries. Hosted on Hugging Face Spaces, it’s built from scratch using free-tier tools, proving that innovation doesn’t need a big budget.
 
