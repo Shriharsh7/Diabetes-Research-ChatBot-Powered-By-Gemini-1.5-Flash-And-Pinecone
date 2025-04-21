@@ -1,4 +1,4 @@
-# Diabetes Research ChatBot Powered By Gemini 1.5 Flash And Pinecone     
+# Diabetes Research ChatBot Powered By Gemini 2.0 Flash And Pinecone     
 
 Welcome to the **Diabetes Research Q&A Chatbot**—an AI-powered tool that transforms how we access and understand diabetes research. This project blends cutting-edge natural language processing (NLP), vector search, and generative AI to deliver fast, precise, and context-aware answers to medical queries. Hosted on Hugging Face Spaces, it’s built from scratch using free-tier tools, proving that innovation doesn’t need a big budget.
 
@@ -8,7 +8,7 @@ Welcome to the **Diabetes Research Q&A Chatbot**—an AI-powered tool that trans
 
 ## What It Does:    
 
-This chatbot is designed to make diabetes research accessible to everyone—researchers, clinicians, or curious minds. It draws from a robust dataset of **9,999 PubMed abstracts (2010 onward)** and lets users upload PDFs (up to 10 pages) for extra context. Powered by **BioBERT** for medical-grade embeddings, **Pinecone** for rapid vector retrieval, and **Google’s Gemini 1.5 Flash** for smart answer generation, it delivers responses in **8-9 seconds**. Built at zero cost, it’s a scalable, efficient solution that showcases advanced AI engineering.
+This chatbot is designed to make diabetes research accessible to everyone—researchers, clinicians, or curious minds. It draws from a robust dataset of **9,999 PubMed abstracts (2010 onward)** and lets users upload PDFs (up to 10 pages) for extra context. Powered by **BioBERT** for medical-grade embeddings, **Pinecone** for rapid vector retrieval, and **Google’s Gemini 2.0 Flash** for smart answer generation, it delivers responses in **8-9 seconds**. Built at zero cost, it’s a scalable, efficient solution that showcases advanced AI engineering.
 
 ---
 
@@ -27,7 +27,7 @@ This chatbot is designed to make diabetes research accessible to everyone—rese
   Upload a PDF, and its text is extracted and embedded in real-time with BioBERT, enriching the chatbot’s context.
 
 - **Intelligent Answer Generation**:  
-  Retrieved data feeds into **Google’s Gemini 1.5 Flash**, which crafts concise, readable, and context-driven answers—falling back to its own knowledge if needed.
+  Retrieved data feeds into **Google’s Gemini 2.0 Flash**, which crafts concise, readable, and context-driven answers—falling back to its own knowledge if needed.
 
 - **Low Latency**:  
   Optimized pipeline delivers answers in **8-9 seconds**, balancing speed and accuracy.
@@ -47,7 +47,7 @@ Here’s the toolkit that powers this project, chosen for performance and synerg
 - **Pinecone**:  
   A managed vector database that stores embeddings for rapid similarity searches with minimal overhead.
 
-- **Google’s Gemini (`1.5 Flash`)**:  
+- **Google’s Gemini (`2.0 Flash`)**:  
   A generative AI model that produces high-quality, human-like answers from complex contexts.
 
 - **Gradio**:  
@@ -78,7 +78,7 @@ The chatbot’s workflow is a streamlined, optimized pipeline:
    - Uploaded PDFs (if any) are processed with PyPDF2 and BioBERT, adding real-time context.
 
 4. **Answer Synthesis**:  
-   - Retrieved context (from Pinecone and PDFs) is fed to **Google’s Gemini 1.5 Flash**, which generates a polished, context-aware response.  
+   - Retrieved context (from Pinecone and PDFs) is fed to **Google’s Gemini 2.0 Flash**, which generates a polished, context-aware response.  
    - If the context is thin, Gemini taps its broader knowledge to ensure a helpful answer.
 
 5. **Resource Management**:  
@@ -168,14 +168,14 @@ This project owes a lot to some amazing free resources:
 - **BioBERT**: For its biomedical NLP prowess.  
 - **Pinecone**: For fast, free vector storage.  
 - **Google Colab**: For the T4 GPU that made embedding possible.  
-- **Google’s Gemini 1.5 Flash**: For smart, readable answers.  
+- **Google’s Gemini 2.0 Flash**: For smart, readable answers.  
 - **Hugging Face Spaces & Gradio**: For a slick, hosted UI.
 
 ---
 
 ## Why It Matters and Conclusion:
 
-The Diabetes Research Q&A Chatbot is more than a tool—it’s a proof of concept. It shows how to fuse **BioBERT**, **Pinecone**, and **Google’s Gemini 1.5 Flash** into a system that’s fast, accurate, and accessible. The Diabetes Research Chatbot is a cutting-edge tool that exemplifies the fusion of advanced natural language processing, vector search technology, and generative AI. Designed to serve both researchers and clinicians, it offers unparalleled insights into the latest diabetes research while operating with remarkable efficiency and scalability. This project is not only a demonstration of technical prowess but also a showcase of innovative thinking in the realm of medical AI.
+The Diabetes Research Q&A Chatbot is more than a tool—it’s a proof of concept. It shows how to fuse **BioBERT**, **Pinecone**, and **Google’s Gemini 2.0 Flash** into a system that’s fast, accurate, and accessible. The Diabetes Research Chatbot is a cutting-edge tool that exemplifies the fusion of advanced natural language processing, vector search technology, and generative AI. Designed to serve both researchers and clinicians, it offers unparalleled insights into the latest diabetes research while operating with remarkable efficiency and scalability. This project is not only a demonstration of technical prowess but also a showcase of innovative thinking in the realm of medical AI.
 Building it with free tools was a fun challenge, and I learned a ton about juggling APIs and optimizing pipelines. It’s not perfect, but it’s a solid start, and I’m excited to see where I can take it next!
 
 *Built with passion by Shriharsh*  
